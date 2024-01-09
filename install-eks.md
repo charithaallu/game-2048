@@ -6,12 +6,9 @@ eksctl create cluster --name demo-cluster --region ca-central-1 --fargate
 
 Create Fargate Profile to get a new namespace
 
-eksctl create fargateprofile \
-    --cluster demo-cluster \
-    --region ca-central-1 \
-    --name alb-sample-app \
-    --namespace game-2048
-
+```
+eksctl create fargateprofile --cluster demo-cluster --region ca-central-1 --name alb-sample-app --namespace game-2048
+```
 ## Deploy the deployment, service and ingress directly using below github link for game-2048
 
 ```
