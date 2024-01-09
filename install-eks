@@ -1,7 +1,0 @@
-## Install using Fargate
-
-```
-eksctl create cluster --name demo-cluster --region ca-central-1 --fargate
-```
-
-
